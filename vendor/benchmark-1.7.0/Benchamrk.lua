@@ -8,7 +8,7 @@ project "GoogleBenchmark"
 	objdir "../../Obj/%{prj.name}/%{cfg.buildcfg}"
 	location "../../Out"
 
-    defines { "USE_PRECOMPILED_HEADERS" }
+    defines { "USE_PRECOMPILED_HEADERS", "BENCHMARK_STATIC_DEFINE" }
 
     vpaths {
 		["Headers"] = { "**.h" },

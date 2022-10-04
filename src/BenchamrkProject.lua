@@ -17,6 +17,7 @@ project "BenchamrkProject"
     links {
         "GoogleBenchmark"
     }
+    defines { "BENCHMARK_STATIC_DEFINE" }
 
     xcodebuildsettings { 
         ["ALWAYS_SEARCH_USER_PATHS"] = "YES"

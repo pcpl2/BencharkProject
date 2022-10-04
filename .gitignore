@@ -1,3 +1,6 @@
-Out/*
+Out/
 *.xcworkspace
 .vscode
+.vs
+Obj/
+*.sln
